@@ -41,4 +41,4 @@ while True:
 # When everything done, release the capture
 cap.release() #frees camera
 cv.destroyAllWindows() #closes OpenCV window
-print(ret.shape(), frame.shape())
+print(frame.shape())
