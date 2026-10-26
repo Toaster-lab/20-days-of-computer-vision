@@ -2,7 +2,7 @@ import time
 import cv2 as cv
 import numpy as np
  
-cap = cv.VideoCapture('day-13.20/sample-5s-720p.mp4')
+cap = cv.VideoCapture('25.10/sample-5s-720p.mp4')
 
 prev_time = time.perf_counter()
 

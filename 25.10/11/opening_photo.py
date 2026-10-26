@@ -3,7 +3,7 @@ import cv2 as cv
 import sys
 
 #specify which image you want to use:
-img = cv.imread(cv.samples.findFile("day-13.20/starry_night.png"))
+img = cv.imread(cv.samples.findFile("25.10/starry_night.png"))
 
 #check if image is loaded
 if img is None:
